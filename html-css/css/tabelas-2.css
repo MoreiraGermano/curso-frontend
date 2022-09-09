@@ -1,0 +1,44 @@
+table, th, td {
+	border: 1px solid;
+	background: white;
+	width: 80%;
+}
+
+table tr {
+	border: 1px solid #000;
+}
+
+table tbody td:nth-child(odd) {
+	background-color: rgba(255, 0, 0, .2);
+}
+
+table th,
+table td {
+	padding: 10px;
+	font-size: 1.2rem;
+	text-align: left;
+}
+
+
+
+table tr td:first-child {
+	text-align: left;
+}
+
+table th {
+	background-color: #DB0925;
+	color: white;
+	text-align: left;
+}
+
+.table-container {
+	padding: 2rem 1rem;
+}
+
+.table-container tfoot {
+		background: #eee;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+}

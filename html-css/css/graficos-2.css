@@ -1,0 +1,56 @@
+div {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#imagem-ps4 {
+    text-align: left;
+}
+
+#imagem-xbox {
+    text-align: left;
+}
+
+#imagem-ps5 {
+    text-align: left;
+}
+
+#imagem-xbox2 {
+    text-align: left;
+}
+
+#imagem-switch {
+    text-align: left;
+}
+
+#imagem-01 {
+    text-align: right;
+}
+
+#imagem-01 img {
+    border-radius: 20%;
+}    
+
+#imagem-02 {
+    text-align: right;
+}
+
+#imagem-02 img {
+    border-radius: 20%;
+}
+
+#imagem-03 {
+    text-align: right;
+}
+
+#imagem-03 img {
+    border-radius: 20%;
+}
+
+#imagem-04 {
+    text-align: right;
+}
+#imagem-04 img {
+    border-radius: 20%;
+}

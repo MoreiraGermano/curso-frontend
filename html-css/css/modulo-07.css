@@ -1,0 +1,203 @@
+/* Importaqndo CSS de Tabelas */
+@import url('tabelas-03.css');
+
+	
+/*
+
+	Herança
+
+	1. Sobreposição
+	2. Aplica o último estilo definido
+	3. Prioriza estilos específico (com seletores mais próximos)
+
+
+ */
+
+
+html {
+	font-family: sans-serif;
+	color: black;
+}
+
+p {
+	color:  #454545;
+}
+
+header p {
+	color: black;
+	font-size: 1.5rem;
+}
+
+
+/*
+
+	Combinadores
+
+	(espaço) seletor descendente
+	(>) combinador de seletores filhos
+	(+) combinador de elementos irmãos adjacentes / que vem logo na sequência
+	(~) combinador de elementos irmãos geral / após elemento de referência
+
+*/
+
+
+header h2 {
+	font-weight: 100;
+}
+
+header > h2 {
+	font-weight: 600;
+}
+
+h2 + p {
+	background: #FF0;
+	color: #333;
+}
+
+h2 ~ h5 {
+	font-size: 1.2rem;
+}
+
+div ~ p {
+	text-transform: uppercase;
+}
+
+
+/* Pseudo-elementos : */
+
+
+a {
+	color: black;
+	text-decoration: none; /* o padrão é underline */
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a:visited {
+	color: #f00;
+}
+
+a:active {
+	color: #096;
+}
+
+a:hover {
+	color: #009;
+	background: #eee;
+}
+
+h2:hover {
+	color: #888;
+}
+
+
+/*
+
+	Tipografia
+
+
+
+*/
+
+html {
+	font-family: sans-serif;
+}
+
+h1, h2, h3 {
+	font-weight: 400;
+	font-family: 'Limelight' cursive;
+}	
+
+p {
+	font-weight: normal;
+	font-size: 1.5rem;
+}
+
+.container{
+	font-size: large;
+	font-style: oblique;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text {
+	background-color: gold;
+	text-align: center
+}
+
+ul {
+	padding-left: .5rem;
+	margin-left: .5rem;
+}
+
+li {
+	font-size: larger;
+	font-weight: bold;
+	letter-spacing: 0.01rem;
+	font-family: sans-serif;
+	line-height: 2;
+}
+
+.lanca-1 {
+	text-align: center;
+	font-size: large;
+}
+
+#compre-1 {
+	text-align: left;
+}
+
+h3 {
+	/* declaração resumida / completa */
+	font: italic bold 1.2rem/2 sans-serif;
+}
+
+h5 {
+	font-style: oblique;
+	color: black;
+}
+
+/*
+
+	cores
+
+*/
+
+body {
+	background: url('../images/controle2.svg') center top repeat gold;
+	height: 400px;
+}
+
+section {
+	background: rgba(255, 255, 255, 0.75);
+}
+
+p {
+	color: black;
+	color: black;
+}
+
+header,
+footer {
+	background-color: #3F8FEB;
+}
+
+footer p {
+	color: black;
+}
+
+.navegacao {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 0.5rem;
+}
+
+.navegacao li a {
+	color: white;
+	font-size: 1.4rem;
+}
+
+.navegacao li a:hover {
+	background-color: rgba(150, 150, 200, .5);
+	color: #333333;
+}

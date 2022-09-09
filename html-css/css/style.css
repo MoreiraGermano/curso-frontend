@@ -1,0 +1,159 @@
+/*
+
+    Arquivo CSS geral com estílos dos elementos de todas páginas
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-size: 62.5%; /* equivalente a 10px */
+}
+
+body {
+      background-color: #FF0000;
+      background-image: url(../img/campo3.jpeg);
+ }
+
+ h1 {
+     font-size: 5rem;
+ }
+
+ h2{
+    font-size: 1.8rem;
+ }
+
+ h1, h2, p, li {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #FFFAFA;
+ }
+
+ a {
+      color: #FFFAFA;
+      text-decoration: none;
+      font-size: 20px;
+ }
+
+ #primeiro-link > a {
+      color: #FFFAFA;
+ }
+
+ ul {
+      background-color: none;
+      font-size: 20px;
+ }
+
+ ul li {
+     font-size: 0.8em; /* equivalente a 16 px */
+     font-size: 1.6rem; /* equivalente a 16 px */
+     width: 80%;
+     height: 3rem; /* equivalente a 30px */
+ }
+
+ p {
+     font-size: 2rem; /* equivalente a 16 px */
+ }
+
+ h2 {
+      font-family: Blippo, serif;
+      font-size: 3rem; /*equiavelnte a 30px */
+      height: 3rem;
+ }
+
+ .navegacao li {
+      border-bottom: 1px solid #ccc;
+      display: block;
+      padding: 1rem 1rem 1rem 1rem;
+      line-height: 1.6rem;
+ }
+
+ .navegacao a {
+     color: #008000;
+     display: block;
+     margin-bottom: .5rem;
+     width: 100%;
+ }
+
+ form {
+     background: #FFFAFA;
+     padding: 10px;
+ }
+
+form div {
+      background: #FFFAFA;
+      border-bottom: 5px solid gold;
+      border-top: 5px solid gold;
+      border-left: 5px solid #1E90FF;
+      border-right: 5px solid #1E90FF;
+      margin: 1rem;
+      padding: 2rem;
+}
+
+label {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000;
+}
+
+input {
+    padding: 1rem;
+}
+
+ [type="text"], [type="email"], textarea, label {
+     display: block;
+     width: 100%;  
+ }
+
+header {
+  background-color: none;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #FFFAFA;
+}
+
+nav {
+  float: left;
+  width: 30%;
+
+  background: none;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: nome;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 70%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: none;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width:  600px) {
+nav, article {
+  width: 100%;
+  height: auto;
+  } 
+}

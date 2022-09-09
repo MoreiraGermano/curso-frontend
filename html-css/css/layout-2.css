@@ -1,0 +1,45 @@
+@import url('tabelas-2.css');
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 62,5%;
+}
+
+body {
+  background: url('../images/fundo-2.jpg') center bottom repeat;
+}
+
+h1 {
+   font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+header {
+  background-color: #DB0925;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+a {
+  background-color: #DB0925;
+  text-align: center;
+}
+footer {
+  background-color: #DB0925;
+  padding: 7px;
+  text-align: center;
+  color: white;
+}
