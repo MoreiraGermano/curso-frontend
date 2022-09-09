@@ -22,7 +22,7 @@ Mac (brew): brew install git
 ## Criar conta no GitHub
 
 ## Clonar o projeto
-
+git clone https://github.com/MoreiraGermano/curso-frontend.git
 ## Commits
 Informação de alteração
 - após testado todo seu código
